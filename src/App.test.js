@@ -6,3 +6,6 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+
+test('To do enter bar is empty when add to list is clicked')
